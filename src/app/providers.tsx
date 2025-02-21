@@ -16,18 +16,25 @@ import { cookieToInitialState, WagmiProvider, type Config } from 'wagmi'
 const queryClient = new QueryClient();
 
 // Your Reown project ID
-const projectId = '111df3bd156ddc609f0d5a8bdfddff09';
+//const projectId = '111df3bd156ddc609f0d5a8bdfddff09';
 // const projectId = 'c7592a368024e54dd620166ef4bf8621';
-
+const projectId = '23acf3ab0f3f61d0e0b571250972c67e'
 // const projectId = process.env.NEXT_PUBLIC_REOWN_PROJECT_ID || '84561b1dd393c58cdc217e160cc376a5';
 
 // App metadata
+// const metadata = {
+//   name: 'Infinixchain',
+//   description: 'infinixchain – Empowering the Future with Our Own Layer 2 Blockchain',
+//   url: 'https://infinixchain.com',
+//   icons: ['https://yourwebsite.com/icon.png']
+// };
+
 const metadata = {
-  name: 'Infinixchain',
-  description: 'infinixchain – Empowering the Future with Our Own Layer 2 Blockchain',
-  url: 'https://infinixchain.com',
-  icons: ['https://yourwebsite.com/icon.png']
-};
+  name: 'connecttest',
+  description: 'AppKit Example',
+  url: 'https://reown.com/appkit', // origin must match your domain & subdomain
+  icons: ['https://assets.reown.com/reown-profile-pic.png']
+}
 
 // Available networks for wallet connections
 // const networks = [mainnet, arbitrum, polygon, bsc];
